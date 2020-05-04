@@ -17,11 +17,11 @@ ul {
     margin: 0;
 }
 
-li {
+li,
+ul.details li {
     margin-bottom: 4px;
     padding: 0;
     list-style: none;
-    text-align: right;
 }
 
 a {
@@ -29,12 +29,17 @@ a {
 }
 
 a:hover span,
-.city:hover a {
+a:hover p {
     color: #5a9ecd;
 }
 
 article {
+    padding: 30px 0 10px;
     border-bottom: 2px solid #5a9ecd;
+}
+
+article:last-child {
+    border-bottom: 0;
 }
 
 .container {
@@ -92,6 +97,10 @@ article {
     margin-left: 10px;
 }
 
+.social-links li {
+    text-align: right;
+}
+
 .social {
     display: flex;
     align-items: center;
@@ -102,14 +111,38 @@ article {
     fill: #5a9ecd;
 }
 
-.title {
-    color: #5a9ecd;
-    letter-spacing: 12px;
+.title,
+.section-title {
     text-transform: uppercase;
+    color: #5a9ecd;
+}
+
+.title {
+    margin-bottom: 30px;
+    letter-spacing: 12px;
 }
 
 .summary {
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
+}
+
+section ul li {
+    list-style: disc;
+}
+
+.subtitle {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #5a9ecd;
+}
+
+.details ul li:before {
+    content: '-';
+    margin-right: 5px;
 }
