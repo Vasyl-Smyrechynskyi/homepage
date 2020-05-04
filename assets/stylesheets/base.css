@@ -28,7 +28,7 @@ a {
 }
 
 a:hover span,
-.city:hover a {
+a:hover p {
     color: #5a9ecd;
 }
 
@@ -106,11 +106,15 @@ article {
     fill: #5a9ecd;
 }
 
+.title,
+.section-title {
+    text-transform: uppercase;
+    color: #5a9ecd;
+}
+
 .title {
     margin-bottom: 30px;
-    color: #5a9ecd;
     letter-spacing: 12px;
-    text-transform: uppercase;
 }
 
 .summary {
@@ -123,7 +127,7 @@ section ul li {
     list-style: disc;
 }
 
-section p {
+.subtitle {
     font-style: italic;
     text-transform: uppercase;
 }
