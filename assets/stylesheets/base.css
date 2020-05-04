@@ -17,6 +17,11 @@ ul {
     margin: 0;
 }
 
+footer, header {
+    margin: 20px;
+    text-align: right;
+}
+
 li,
 ul.details li {
     margin-bottom: 4px;
@@ -144,3 +149,4 @@ section ul li {
     content: '-';
     margin-right: 5px;
 }
+
