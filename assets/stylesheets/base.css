@@ -17,6 +17,11 @@ ul {
     margin: 0;
 }
 
+footer, header {
+    margin: 20px;
+    text-align: right;
+}
+
 li,
 ul.details li {
     margin-bottom: 4px;
@@ -143,8 +148,4 @@ section ul li {
 .details ul li:before {
     content: '-';
     margin-right: 5px;
-}
-
-.signature {
-    text-align: right;
 }
