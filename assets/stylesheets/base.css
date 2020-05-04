@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #465061;
+}
+
+body {
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+}
+
+li,
+ul.details li {
+    margin-bottom: 4px;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover span,
+a:hover p {
+    color: #5a9ecd;
+}
+
+article {
+    padding: 30px 0 10px;
+    border-bottom: 2px solid #5a9ecd;
+}
+
+article:last-child {
+    border-bottom: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 40px 40px 100px rgba(128, 128, 128, 0.4);
+    overflow-x: hidden;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0;
+}
+
+.img-info-wrap {
+    display: flex;
+    max-width: 60%;
+    align-items: center;
+}
+
+.img-holder {
+    width: 100%;
+    margin-right: 30px;
+}
+
+.img-holder img {
+    object-position: 0 -34px;
+}
+
+.info {
+    padding: 10px 0;
+    max-width: 500px;
+}
+
+.name {
+    font-size: 40px;
+    margin: 0;
+}
+
+.position {
+    color: #5a9ecd;
+    font-weight: 600;
+}
+
+.icon {
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    max-height: 35px;
+    margin-left: 10px;
+}
+
+.social-links li {
+    text-align: right;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social:hover .icon {
+    fill: #5a9ecd;
+}
+
+.title,
+.section-title {
+    text-transform: uppercase;
+    color: #5a9ecd;
+}
+
+.title {
+    margin-bottom: 30px;
+    letter-spacing: 12px;
+}
+
+.summary {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+section ul li {
+    list-style: disc;
+}
+
+.subtitle {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #5a9ecd;
+}
+
+.details ul li:before {
+    content: '-';
+    margin-right: 5px;
+}
