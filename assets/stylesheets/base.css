@@ -21,7 +21,6 @@ li {
     margin-bottom: 4px;
     padding: 0;
     list-style: none;
-    text-align: right;
 }
 
 a {
@@ -34,6 +33,7 @@ a:hover span,
 }
 
 article {
+    padding: 30px 0 10px;
     border-bottom: 2px solid #5a9ecd;
 }
 
@@ -92,6 +92,10 @@ article {
     margin-left: 10px;
 }
 
+.social-links li {
+    text-align: right;
+}
+
 .social {
     display: flex;
     align-items: center;
@@ -103,6 +107,7 @@ article {
 }
 
 .title {
+    margin-bottom: 30px;
     color: #5a9ecd;
     letter-spacing: 12px;
     text-transform: uppercase;
@@ -112,4 +117,18 @@ article {
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
+}
+
+section ul li {
+    list-style: disc;
+}
+
+section p {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #5a9ecd;
 }
