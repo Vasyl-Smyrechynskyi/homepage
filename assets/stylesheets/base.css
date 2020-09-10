@@ -30,12 +30,8 @@ ul.details li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:hover span,
-a:hover p {
+a:hover {
     color: #5a9ecd;
 }
 
@@ -100,10 +96,6 @@ article:last-child {
     margin-left: 10px;
     flex-shrink: 0;
 }
-
-/*.social-links li {*/
-/*    text-align: right;*/
-/*}*/
 
 .social {
     display: flex;
