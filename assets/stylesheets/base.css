@@ -92,6 +92,7 @@ article:last-child {
     width: 100%;
     max-width: 30px;
     height: auto;
+    fill: #465061;
     max-height: 35px;
     margin-left: 10px;
     flex-shrink: 0;
